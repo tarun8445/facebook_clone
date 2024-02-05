@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 99vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+.container{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-container{
+    display: flex;
+    width: 980px;
+    height: 536px;
+    align-items: center;
+    gap:4em;
+}
+.left-container{
+    position: relative;
+}
+.left-container img{
+    width: 350px;
+    position: absolute;
+    top:-130px;
+    left: -35px;
+}
+.left-container p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: -25px;
+}
+.form{
+    background-color: #fff;
+    width: 400px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+.input{
+    padding:15px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    color: #6e6f71;
+    font-weight: 500;
+    font-size: medium;
+}
+.btn{
+    color: white;
+    background-color: #1877f2;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+.fp{
+    margin: auto;
+    color: #4390f4;
+}
+.fp a{
+    text-decoration: none;
+    color:#1877f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fp a:hover{
+    text-decoration: underline;
+}
+.hr{
+    width: 350px;
+    height: .06rem;
+    height: .7px;
+    background-color: rgb(147, 134, 134);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    width: 14em;
+    height: 3.5em;
+    background-color: #42b72a;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    padding: 8px -5px;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+
+}
+.button:hover{
+    background-color: #3ca028;
+    transition: background-color .5s;
+}
+
+.lastp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img img{
+        width: 400px;
+        margin: 20px;
+        
+        
+        
+        
+    }
+     
+    .left-container p{
+        margin-top: 5px;
+        margin-bottom: -25px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .hr{
+        width: 350px;
+    height: .06rem;
+    }
+    
+}
